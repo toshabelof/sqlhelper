@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\bin\Debug\SqlHelper.exe.config
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\bin\Debug\SqlHelper.exe
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\bin\Debug\SqlHelper.pdb
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\App.g.cs
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper_MarkupCompile.cache
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper_MarkupCompile.lref
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.g.resources
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.exe
+C:\Users\Lenovo\source\repos\SqlHelper\SqlHelper\obj\Debug\SqlHelper.pdb

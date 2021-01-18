@@ -1,0 +1,94 @@
+﻿<Window x:Class="SqlHelper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SqlHelper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="456" Width="949.438">
+    <Grid>
+        <TextBox Name="tBoxObjectBD" HorizontalAlignment="Left" Height="25" Margin="83,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        <Button Content="Генерация" HorizontalAlignment="Left" Margin="680,372,0,0" VerticalAlignment="Top" Width="106" Height="28" Click="Button_Click"/>
+        <ListBox Name="listBoxShemaFrom" HorizontalAlignment="Left" Height="361" Margin="10,50,0,0" VerticalAlignment="Top" Width="181">
+            <CheckBox Content="_QMET_MD"/>
+            <CheckBox Content="_QMET_CS"/>
+            <CheckBox Content="_QMET_CS_Q"/>
+            <CheckBox Content="_QMET_CS_QUINTIQ"/>
+            <CheckBox Content="_QMET_EAF"/>
+            <CheckBox Content="_QMET_EAF_Q"/>
+            <CheckBox Content="_QMET_EAF_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM1"/>
+            <CheckBox Content="_QMET_HRM1_Q"/>
+            <CheckBox Content="_QMET_HRM1_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM2"/>
+            <CheckBox Content="_QMET_HRM2_Q"/>
+            <CheckBox Content="_QMET_HRM2_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM3"/>
+            <CheckBox Content="_QMET_HRM3_Q"/>
+            <CheckBox Content="_QMET_HRM3_QUINTIQ"/>
+            <CheckBox Content="_QMET_ITZ"/>
+            <CheckBox Content="_QMET_ITZ_Q"/>
+            <CheckBox Content="_QMET_ITZ_QUINTIQ"/>
+            <CheckBox Content="_QMET_TPZ"/>
+            <CheckBox Content="_QMET_TPZ_Q"/>
+            <CheckBox Content="_QMET_TPZ_QUINTIQ"/>
+            <CheckBox Content="_QMET_LP"/>
+            <CheckBox Content="_QMET_LP_Q"/>
+            <CheckBox Content="_QMET_LP_QUINTIQ"/>
+            <CheckBox Content="_QMET_CGP"/>
+            <CheckBox Content="_QMET_CGP_Q"/>
+            <CheckBox Content="_QMET_CGP_QUINTIQ"/>
+            <CheckBox Content="_QMET_CRM"/>
+            <CheckBox Content="_QMET_CRM_Q"/>
+            <CheckBox Content="_QMET_CRM_QUINTIQ"/>
+        </ListBox>
+        <Label Content="Объект БД" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="25"/>
+        <ListBox Name="listBoxShemaTo" HorizontalAlignment="Left" Height="361" Margin="196,50,0,0" VerticalAlignment="Top" Width="182">
+            <CheckBox Content="_QMET_MD"/>
+            <CheckBox Content="_QMET_CS"/>
+            <CheckBox Content="_QMET_CS_Q"/>
+            <CheckBox Content="_QMET_CS_QUINTIQ"/>
+            <CheckBox Content="_QMET_EAF"/>
+            <CheckBox Content="_QMET_EAF_Q"/>
+            <CheckBox Content="_QMET_EAF_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM1"/>
+            <CheckBox Content="_QMET_HRM1_Q"/>
+            <CheckBox Content="_QMET_HRM1_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM2"/>
+            <CheckBox Content="_QMET_HRM2_Q"/>
+            <CheckBox Content="_QMET_HRM2_QUINTIQ"/>
+            <CheckBox Content="_QMET_HRM3"/>
+            <CheckBox Content="_QMET_HRM3_Q"/>
+            <CheckBox Content="_QMET_HRM3_QUINTIQ"/>
+            <CheckBox Content="_QMET_ITZ"/>
+            <CheckBox Content="_QMET_ITZ_Q"/>
+            <CheckBox Content="_QMET_ITZ_QUINTIQ"/>
+            <CheckBox Content="_QMET_TPZ"/>
+            <CheckBox Content="_QMET_TPZ_Q"/>
+            <CheckBox Content="_QMET_TPZ_QUINTIQ"/>
+            <CheckBox Content="_QMET_LP"/>
+            <CheckBox Content="_QMET_LP_Q"/>
+            <CheckBox Content="_QMET_LP_QUINTIQ"/>
+            <CheckBox Content="_QMET_CGP"/>
+            <CheckBox Content="_QMET_CGP_Q"/>
+            <CheckBox Content="_QMET_CGP_QUINTIQ"/>
+            <CheckBox Content="_QMET_CRM"/>
+            <CheckBox Content="_QMET_CRM_Q"/>
+            <CheckBox Content="_QMET_CRM_QUINTIQ"/>
+        </ListBox>
+        <ListBox Name="listBoxAccess" HorizontalAlignment="Left" Height="361" Margin="383,50,0,0" VerticalAlignment="Top" Width="136">
+            <CheckBox Content="ALL"/>
+            <CheckBox Content="SELECT"/>
+            <CheckBox Content="UPDATE"/>
+            <CheckBox Content="DELETE"/>
+            <CheckBox Content="EXECUTE"/>
+        </ListBox>
+        <Label Content="GRANT" HorizontalAlignment="Left" Margin="533,48,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox Name="tBoxGrant" HorizontalAlignment="Left" Height="105" Margin="533,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+
+        <Label Content="SYNONYM" HorizontalAlignment="Left" Margin="533,212,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox Name="tBoxSynonym" HorizontalAlignment="Left" Height="113" Margin="533,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+        <CheckBox Name="cBoxGrantOption" Content="WITH GRANT OPTION" Margin="786,50,10,352" IsChecked="True"/>
+
+    </Grid>
+</Window>
